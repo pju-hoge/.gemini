@@ -1,5 +1,8 @@
 # Gemini CLI Configuration
-Universal engineering guidelines for Gemini CLI.
+This repository contains my universal engineering guidelines for the Gemini CLI.
+
+## Why Public?
+I am making this repository public intentionally to allow for easy portability and synchronization across multiple development environments and machines. It ensures my engineering standards and Gemini behaviors remain consistent wherever I work.
 
 ## Installation on new machines
 ```bash
