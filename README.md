@@ -6,6 +6,5 @@ I am making this repository public intentionally to allow for easy portability a
 
 ## Installation on new machines
 ```bash
-cd ~
-git clone https://github.com/pju-hoge/.gemini.git
+git clone https://github.com/pju-hoge/.gemini pju-hoge-gemini && { [ -e ~/.gemini/GEMINI.md ] && echo "Error: ~/.gemini/GEMINI.md already exists" && exit 1 || ln -s ~/pju-hoge-gemini/GEMINI.md ~/.gemini/GEMINI.md; }
 ```
